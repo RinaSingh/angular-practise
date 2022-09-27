@@ -1,0 +1,23 @@
+<div class="conatiner">
+    <div class="row">
+        <div class="col-md-4">
+            <p><strong>Ex-01</strong>Manual</p>
+            <hr>
+            <ul class="list-data" id="conatinerone" [ngClass]="techStatus === 'completed' ? 'completed' : techStatus === 'error'? 'error': '' "></ul>
+        </div>
+        <div class="col-md-4">
+            <p><strong>Ex-02</strong>Custom Observables</p>
+            <hr>
+            <ul class="data-observ" [ngClass]="techStatus === 'completed' ? 'completed' : techStatus === 'error'? 'error': '' " id="container2">
+                
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <p><strong>Ex-03</strong>'Herry','Robert','James','Rina','Caption'</p>
+            <br>
+            <hr>
+            <h3><strong>current Name: </strong>{{names}}</h3>
+            <span class="badge" [ngClass]="techStatus === 'completed' ? 'text-bg-success' : techStatus === 'error'? 'text-bg-danger': 'text-bg-warning' ">{{techStatus === 'completed' ? 'success' : techStatus === 'error'? 'Error': 'Running' }}</span>
+        </div>
+    </div>
+</div>

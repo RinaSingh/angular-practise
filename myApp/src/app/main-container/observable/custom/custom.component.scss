@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+ul.list-data, ul.data-observ {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    border-radius: 5px;
+    margin-top: 10px;
+    padding:5px;
+    border: 1px solid rgb(149, 142, 142);
+    background-color: #f3f3f3;
+    
+}
+ul.error li{
+    border: 1px solid red;
+    
+    background: #ff000021;
+    color: red;
+    
+}
+ul.completed li{
+    border: 1px solid green;
+    background: #11652d21;
+    color: green;
+}
