@@ -10,6 +10,7 @@ import { OforfromComponent } from './observable/oforfrom/oforfrom.component';
 import { ToarrayComponent } from './observable/toarray/toarray.component';
 import { CustomComponent } from './observable/custom/custom.component';
 import { MapComponent } from './observable/map/map.component';
+import { TapComponent } from './observable/tap/tap.component';
 
 const childRoutes: Routes = [
   {path:'main',
@@ -25,7 +26,8 @@ const childRoutes: Routes = [
         {path:'oforfrom', component:OforfromComponent},
         {path:'toarray', component:ToarrayComponent},
         {path:'custom', component:CustomComponent},
-        {path:'mapping', component:MapComponent}
+        {path:'mapping', component:MapComponent},
+        {path:'tap', component:TapComponent}
       ]
     }
    ]
@@ -48,5 +50,6 @@ export const mainContainerComponents =[
   OforfromComponent,
   ToarrayComponent,
   CustomComponent,
-  MapComponent
+  MapComponent,
+  TapComponent
 ]

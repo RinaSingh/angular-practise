@@ -20,7 +20,7 @@ export class MapComponent implements OnInit {
     ])
 
     arrObj.pipe(
-      map(data => data.name + data.skills)
+      map(data => data.name)
     ).subscribe(res => {
       this._designUtilty.print(res,'userName');
     })
